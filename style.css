@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.b1 {
+    position: relative;
+    left: 76%;
+    padding: 10px 0px;
+    width: 20%;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Goldman";
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+.b4 {
+    position: relative;
+    left: -22%;
+    padding: 10px 0px;
+    width: 20%;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Goldman";
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    .b1 {
+        position: relative;
+        left: 36%;
+        padding: 10px 0px;
+        width: 55%;
+        font-size: 15px;
+        margin-right: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        font-family: "Goldman";
+        transition: 0.2s ease-in-out;
+    }
+
+    .b1:hover {
+        background-color: rgb(237, 60, 60);
+    }
+}
+
+.dark-mode {
+    background: url(https://media3.giphy.com/media/OK5LK5zLFfdm/giphy.gif?cid=ecf05e47f6up54hea05y8idl0kz70xvenaah21jgnj29al34&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    transition: 0.3s ease-in-out;
+    /* color: */
+}
+
+.dark-buttons {
+    font-size: 21px;
+    border-radius: 10%;
+    outline: none;
+    margin-bottom: 12px;
+    font-family: "Goldman";
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .dark-mode {
+        background: url(https://images.pexels.com/photos/1122639/pexels-photo-1122639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.container {
+    text-align: center;
+    border: 3px solid rgb(240, 108, 130);
+    width: 380px;
+    margin: -45px auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(247, 243, 244);
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    margin: 20px;
+    width: 85%;
+    padding: 40px;
+    font-size: 35px;
+    text-align: right;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(219, 231, 201);
+    font-family: "Goldman";
+}
+
+.b3 {
+    font-size: 21px;
+    padding: 20px;
+    border-radius: 10%;
+    margin: 6px;
+    background: transparent;
+    outline: none;
+    margin-bottom: 12px;
+    font-family: "Goldman";
+    border: 1px solid red;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.b3:hover {
+    background-color: rgb(41, 37, 37);
+    color: rgb(240, 108, 130);
+}
